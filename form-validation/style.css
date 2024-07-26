@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(11, 7, 39);
+}
+
+.container {
+  margin: 120px auto;
+  background: #fff;
+  width: 600px;
+  padding: 30px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.container form i {
+  position: absolute;
+  background: #fff;
+  padding: 30px;
+  border-radius: 50%;
+  top: -30px;
+  left: 43%;
+  box-shadow: 0 1px 2px 2px lightgray;
+  font-weight: bolder;
+}
+
+.inputs {
+  margin-top: 50px;
+}
+
+.input-group > label {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+.input-group input {
+  margin-left: 10px;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid gray;
+  font-size: 18px;
+  margin-bottom: 35px;
+  text-align: left;
+  width: 300px;
+}
+
+.input-group textarea {
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid gray;
+  width: 300px;
+  margin-left: -8px;
+  padding: 10px 0;
+}
+
+#email {
+  margin-left: 28px;
+}
+
+.container form button {
+  margin: 50px 35% 20px;
+  text-align: center;
+  border: 0;
+  background-color: rgb(2, 2, 20);
+  padding: 10px 50px;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+.input-group span {
+  position: absolute;
+
+  right: 70px;
+  font-size: 14px;
+  color: red;
+}
+
+#submit-error {
+  color: red;
+}
+
+.input-group > span > i {
+  color: seagreen;
+  background: transparent;
+  box-shadow: none;
+  font-size: 14px;
+  position: absolute;
+
+  right: 70px;
+}
