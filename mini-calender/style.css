@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(30deg, purple, darkblue, violet);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calender {
+  background: #fff;
+  width: 280px;
+  height: 150px;
+  border-radius: 15px;
+  box-shadow: 0px 1px 2px darkblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.right,
+.left {
+  height: 150px;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  width: 150px;
+  padding-left: 20px;
+}
+
+.right {
+  width: 130px;
+  background-color: orangered;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #fff;
+}
+
+#date {
+  font-size: 55px;
+  line-height: 90px;
+  font-weight: 500;
+}
+
+#month {
+  padding-bottom: 8px;
+}
