@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  background-color: lightgrey;
+}
+
+.container {
+  margin: 150px auto;
+  min-width: 400px;
+  text-align: center;
+  padding: 30px;
+}
+
+.title {
+  font-size: 50px;
+  margin-bottom: 60px;
+  color: rgb(81, 11, 11);
+}
+
+.timer {
+  font-size: 65px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  color: rgb(54, 60, 65);
+}
+
+.button-wrapper button {
+  font-size: 25px;
+  padding: 10px 20px;
+  margin: 0px 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  color: lightgray;
+}
+
+#start {
+  background-color: rgb(48, 159, 48);
+}
+
+#stop {
+  background-color: rgb(189, 58, 58);
+}
+
+#reset {
+  background-color: rgb(103, 99, 99);
+}
+
+.button-wrapper button:hover {
+  opacity: 0.7;
+}
